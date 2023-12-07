@@ -26,4 +26,20 @@ small {
   height: 450px;
   width: 300px;
   background: url("https://t4.ftcdn.net/jpg/01/04/78/75/360_F_104787586_63vz1PkylLEfSfZ08dqTnqJqlqdq0eXx.jpg") center center no-repeat;
+  margin: auto;
+  cursor: pointer;
+  max-width: 100%;
+  position: relative;
+}
+.loveMe .fa-heart {
+  position: absolute;
+  animation: grow 0.6s linear;
+  transform: translate(-50%, -50%) scale(0);
+}
+
+@keyframes grow {
+  0% {
+    transform: translate(-50%, -50%) scale(10);
+    opacity: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
